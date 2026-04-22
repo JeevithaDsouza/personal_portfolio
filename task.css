@@ -1,0 +1,193 @@
+body
+{
+    font-family : 'Times New Roman', Times, serif;
+    margin : 10px;
+    background : floralwhite;
+    text-align: center;
+}
+.title
+{
+    margin-top: 10px;
+}
+/*tab buttons*/
+.tabs button
+{
+    padding: 20px 100px;
+    margin : none;
+    border : none;
+    background : rgb(200, 192, 178);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.tabs button:hover
+{
+    background : burlywood;
+}
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #a2f99b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover 
+{
+    background: #6df2f0;
+}
+.section {
+    display: none;
+    padding: 30px;
+}
+
+.section.active {
+    display: block;
+}
+.highlight {
+    color: #3b5bdb;
+}
+
+.subtitle {
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* Common Box Style */
+.project-box, .certificate-box {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* Headings */
+.project-box h3 {
+    margin-top: 15px;
+}
+
+/* List Style */
+.project-box ul,
+.certificate-box ul {
+    padding-left: 20px;
+}
+
+.project-box li,
+.certificate-box li {
+    margin: 8px 0;
+}
+.project-box:hover,
+.certificate-box:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+/* Links */
+.certificate-box a {
+    color: #3b5bdb;
+    text-decoration: none;
+}
+
+.certificate-box a:hover {
+    text-decoration: underline;
+}
+
+
+.certificate-images {
+    display: block;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.certificate-item {
+    text-align: left;
+}
+
+.certificate-item p {
+    margin-bottom: 8px;
+    
+}
+
+.certificate-item img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.resume-header {
+    font-family: 'Times New Roman', Times, serif;
+    background: #125cca;
+    color: white;
+    padding: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 18px;
+}
+
+.resume-header h2 {
+    margin-top: 0;
+}
+
+.resume-right img {
+    width: 160px;
+    height: 170px;
+    border-radius: 8px; 
+    border: 2px solid rgba(255, 255, 255, 0.5); 
+    object-fit: cover; 
+}
+
+.resume-body {
+    margin: 20px 200px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+.contact-box 
+{
+    background: white;
+    font-family : 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: auto;
+    width: 350px;
+    border-radius: 10px;
+    text-align :left;
+    font-size: 18px;   
+    line-height: 1.8;
+}
+.contact-box a {
+    color: #125cca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+
